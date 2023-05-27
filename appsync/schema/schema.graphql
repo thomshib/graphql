@@ -1,0 +1,21 @@
+schema {
+    query: Query
+    mutation: Mutation
+}
+
+type Query {
+    helloWorld: String
+    getGender: Gender
+    getGenderByName(name: String): Gender   
+}
+
+type Mutation {
+  updateGenderByName(name: String): Gender
+}
+
+type Gender {
+  count: Int
+  gender: String
+  name: String
+  probability: Int
+}

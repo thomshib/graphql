@@ -1,0 +1,12 @@
+{
+    "arguments": {
+        "name": "peter"
+    },
+    "result": {
+        "count": 1094417,
+        "gender": "male",
+        "name": "peter",
+        "probability": 1
+    }
+   
+}
